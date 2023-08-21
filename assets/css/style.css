@@ -1,0 +1,106 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body { 
+  background: url("http://superdevresources.com/wp-content/uploads/2014/02/pattern-background.png");
+  font-family: "Bree Serif", serif;
+  
+  min-height: 100vh;
+}
+
+.main_container_sign_up {
+  height: 84vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container_sign_up > form {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(189, 70%, 40%);
+}
+.main_container_sign_up > form > h1 {
+  text-transform: uppercase;
+}
+.main_container_sign_up > form > input {
+  height: 35px;
+  width: 60%;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+.main_container_sign_up > form > .password_container {
+  height: 35px;
+  width: 60%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.main_container_sign_up > form > .password_container > input {
+  height: 100%;
+  width: 49%;
+  border-radius: 50px;
+  text-align: center;
+}
+.main_container_sign_up > form > button {
+  height: 35px;
+  width: 75px;
+  border: 2px solid;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.main_container_sign_in {
+  height: 84vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container_sign_in > form {
+  height: 40vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ff8;
+}
+
+.main_container_sign_in > form > h1 {
+  text-transform: uppercase;
+}
+
+.main_container_sign_in > form > input {
+  height: 35px;
+  width: 60%;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main_container_sign_in > form > button {
+  height: 35px;
+  width: 75px;
+  border: 2px solid;
+  border-radius: 50px;
+  margin-top: 10px;
+} 
+

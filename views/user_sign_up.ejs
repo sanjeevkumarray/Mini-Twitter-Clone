@@ -1,0 +1,38 @@
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<div class="main_container_sign_up" >
+  <form action="/users/create" method="post">
+    <h1>user sign up form</h1>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="enter your name"
+      required
+    />
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="enter your email"
+      required
+    />
+    <div class="password_container">
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="********"
+        required
+      />
+      <input
+        type="password"
+        name="confirm_password"
+        id="confirm_password"
+        placeholder="********"
+        required
+      />
+    </div>
+    <button type="submit">submit</button>
+  </form>
+</div>
+<script src="/javascript/script.js"></script>

@@ -1,0 +1,13 @@
+<link rel="stylesheet" type="text/css" href="/css/_header.css" />
+<header id="main_header">
+  <div class="logo_wrapper"><a href="/">Twitter</a></div>
+  <ul>
+    <% if(locals.user){ %>
+    <li><a href="/users/profile/<%= locals.user._id %>"><%= locals.user.name %></a></li>
+    <li><a href="/users/sign-out">sign out</a></li>
+    <% }else{ %>
+    <li><a href="/users/sign-in">sign in</a></li>
+    <li><a href="/users/sign-up">sign up</a></li>
+    <% } %>
+  </ul>
+</header>
