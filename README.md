@@ -4,4 +4,6 @@ A simplified Twitter clone developed with the MERN Stack (MongoDB, Express.js, R
 
 
 1 .Install dependencies: `npm install`.
+
+
 2. Start the backend server: `npm start`.
